@@ -1,0 +1,11 @@
+[package]
+name = "test_serde"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+# serde 提供了核心序列化和反序列化功能，而 serde_json 则提供了对 JSON 格式的支持
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
